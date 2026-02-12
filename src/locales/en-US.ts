@@ -51,8 +51,8 @@ export default {
   },
   home: {
     banner: {
-      title: '10 Years of Experience',
-      subtitle: 'Professional Google Ads Solutions',
+      title: 'Global Digital Marketing',
+      subtitle: 'Account Setup & Campaign Management',
       description: 'Kairui brings 10 years of Google Ads expertise, offering complete campaign terminals, landing page distribution systems, real data monitoring, and carrier-grade user tracking - far superior to traditional market solutions, delivering exceptional results for your business.',
       getStarted: 'Get Started',
       learnMore: 'Learn More',

@@ -51,8 +51,8 @@ export default {
   },
   home: {
     banner: {
-      title: '十年投流经验',
-      subtitle: '专业谷歌广告解决方案',
+      title: '全球数字营销',
+      subtitle: '灰产 开户代投',
       description: 'Kairui（凯瑞）拥有十年谷歌投流经验，提供完整的投流解决终端、落地页分发系统，配备真实数据监控和运营商级用户监控，完全优于市场传统系统，为您的业务带来卓越成效。',
       getStarted: '开始使用',
       learnMore: '了解更多',
