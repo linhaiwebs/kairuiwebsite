@@ -1,6 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
+import i18n from "./i18n";
 import AOS from "aos";
 import { createBootstrap } from "bootstrap-vue-next";
 
@@ -12,7 +13,7 @@ import "swiper/css/bundle";
 
 import "./assets/custom.scss";
 
-const app = createApp(App).use(router);
+const app = createApp(App).use(router).use(i18n);
 app.mixin({
   mounted() {
     AOS.init();

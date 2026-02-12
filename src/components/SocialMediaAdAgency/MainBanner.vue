@@ -10,16 +10,14 @@
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                Boost your brand, dominate social media!
+                {{ t('home.banner.title') }}<br/>{{ t('home.banner.subtitle') }}
               </h1>
               <p
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 data-aos-delay="200"
               >
-                At our social media ad agency, we specialize in crafting
-                captivating and results-driven campaigns that will skyrocket
-                your brand's online presence.
+                {{ t('home.banner.description') }}
               </p>
               <router-link
                 to="/contact-us"
@@ -28,7 +26,7 @@
                 data-aos-duration="1200"
                 data-aos-delay="300"
               >
-                GET YOUR FREE CUSTOM PROPOSAL
+                {{ t('nav.getProposal').toUpperCase() }}
                 <img
                   src="../../assets/images/icon-right-white.png"
                   alt="right-chevron"
@@ -46,14 +44,14 @@
                     <div class="d-flex align-items-center">
                       <div class="flex-shrink-0">
                         <img
-                          src="../../assets/images/award-1.png"
-                          alt="award"
+                          src="../../assets/images/icon-google-ads.png"
+                          alt="google-ads"
                         />
                       </div>
                       <div class="flex-grow-1 ms-3">
-                        <p class="award">Award Winning Agency</p>
+                        <p class="award">Google认证合作伙伴</p>
                         <p class="clients mb-0">
-                          <span>3500+</span> Active Clients
+                          <span>500+</span> {{ t('home.stats.clients') }}
                         </p>
                       </div>
                     </div>
@@ -62,7 +60,7 @@
                 <div class="custom-grid-33">
                   <div class="award-single-item review-on mb-0">
                     <div class="d-flex align-items-center mb-1">
-                      <p class="review">Review On</p>
+                      <p class="review">{{ t('home.stats.averageRoi') }}</p>
                       <div>
                         <img
                           src="../../assets/images/icon-star.png"
@@ -87,12 +85,7 @@
                       </div>
                     </div>
                     <div class="d-flex align-items-center">
-                      <img
-                        class="review"
-                        src="../../assets/images/company.png"
-                        alt="company"
-                      />
-                      <p>1500+ Reviews</p>
+                      <p style="font-size: 24px; font-weight: 700; margin: 0;">300%+</p>
                     </div>
                   </div>
                 </div>
@@ -119,12 +112,17 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
+import { useI18n } from "vue-i18n";
 import PartnerWrapper from "./PartnerWrapper.vue";
 
 export default defineComponent({
   name: "MainBanner",
   components: {
     PartnerWrapper,
+  },
+  setup() {
+    const { t } = useI18n();
+    return { t };
   },
 });
 </script>

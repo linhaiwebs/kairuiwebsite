@@ -31,17 +31,17 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              HOME
+              {{ t('nav.home') }}
             </a>
             <ul class="dropdown-menu">
               <li>
                 <router-link class="dropdown-item" to="/">
-                  PAID SEARCH AD AGENCY
+                  {{ t('nav.socialMediaAdAgency') }}
                 </router-link>
               </li>
               <li>
-                <router-link class="dropdown-item" to="/social-media-ad-agency">
-                  SOCIAL MEDIA AD AGENCY
+                <router-link class="dropdown-item" to="/paid-search-ad-agency">
+                  {{ t('nav.googleAdAgency') }}
                 </router-link>
               </li>
               <li>
@@ -49,7 +49,7 @@
                   class="dropdown-item"
                   to="/traditional-offline-ad-agency"
                 >
-                  TRADITIONAL/OFFLINE AD AGENCY
+                  {{ t('nav.traditionalOfflineAdAgency') }}
                 </router-link>
               </li>
             </ul>
@@ -63,22 +63,22 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              OUR SOLUTIONS
+              {{ t('nav.ourSolutions') }}
             </a>
             <ul class="dropdown-menu">
               <li>
                 <router-link class="dropdown-item" to="/services">
-                  OUR SERVICES
+                  {{ t('nav.ourServices') }}
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/service-details">
-                  SERVICE DETAILS
+                  {{ t('nav.serviceDetails') }}
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/our-team">
-                  OUR TEAM
+                  {{ t('nav.ourTeam') }}
                 </router-link>
               </li>
             </ul>
@@ -92,22 +92,22 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              WHO WE ARE
+              {{ t('nav.whoWeAre') }}
             </a>
             <ul class="dropdown-menu">
               <li>
                 <router-link class="dropdown-item" to="/about-us">
-                  ABOUT US
+                  {{ t('nav.aboutUs') }}
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/careers">
-                  CAREERS
+                  {{ t('nav.careers') }}
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/career-details">
-                  CAREER DETAILS
+                  {{ t('nav.careerDetails') }}
                 </router-link>
               </li>
             </ul>
@@ -121,17 +121,17 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              OUR WORK
+              {{ t('nav.ourWork') }}
             </a>
             <ul class="dropdown-menu">
               <li>
                 <router-link class="dropdown-item" to="/success-stories">
-                  SUCCESS STORIES
+                  {{ t('nav.successStories') }}
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/success-story-details">
-                  SUCCESS STORY DETAILS
+                  {{ t('nav.successStoryDetails') }}
                 </router-link>
               </li>
             </ul>
@@ -145,49 +145,49 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              PAGES
+              {{ t('nav.pages') }}
             </a>
             <ul class="dropdown-menu">
               <li>
                 <router-link class="dropdown-item" to="/blog">
-                  OUR BLOG
+                  {{ t('nav.ourBlog') }}
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/blog-details">
-                  BLOG DETAILS
+                  {{ t('nav.blogDetails') }}
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/tags">
-                  TAGS
+                  {{ t('nav.tags') }}
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/categories">
-                  CATEGORIES
+                  {{ t('nav.categories') }}
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/author">
-                  AUTHOR
+                  {{ t('nav.author') }}
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/privacy-policy">
-                  PRIVACY POLICY
+                  {{ t('nav.privacyPolicy') }}
                 </router-link>
               </li>
               <li>
                 <router-link class="dropdown-item" to="/terms-conditions">
-                  TERMS & CONDITIONS
+                  {{ t('nav.termsConditions') }}
                 </router-link>
               </li>
             </ul>
           </li>
           <li class="nav-item dropdown">
             <router-link class="nav-link" to="/contact-us">
-              CONTACT
+              {{ t('nav.contact') }}
             </router-link>
           </li>
         </ul>
@@ -195,8 +195,11 @@
       <div class="others-options">
         <ul class="d-flex align-items-center">
           <li>
-            <router-link to="/careers" class="default-btn">
-              GET A PROPOSAL
+            <LanguageSwitcher />
+          </li>
+          <li>
+            <router-link to="/contact-us" class="default-btn">
+              {{ t('nav.getProposal') }}
               <img
                 src="../../assets/images/icon-right-white.png"
                 alt="right-chevron"
@@ -211,12 +214,18 @@
 
 <script lang="ts">
 import { defineComponent, ref, onMounted } from "vue";
+import { useI18n } from "vue-i18n";
 import stateStore from "../../utils/store";
+import LanguageSwitcher from "./LanguageSwitcher.vue";
 
 export default defineComponent({
   name: "MainNavbar",
+  components: {
+    LanguageSwitcher
+  },
   props: ["mwClass", "className"],
   setup() {
+    const { t } = useI18n();
     const isSticky = ref(false);
     const stateStoreInstance = stateStore;
 
@@ -228,6 +237,7 @@ export default defineComponent({
     });
 
     return {
+      t,
       isSticky,
       stateStoreInstance,
     };

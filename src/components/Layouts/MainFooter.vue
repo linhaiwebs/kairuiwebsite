@@ -10,29 +10,29 @@
             data-aos-delay="200"
           >
             <div class="footer-widget-single-item">
-              <h3>Solutions</h3>
+              <h3>{{ t('footer.solutions') }}</h3>
 
               <ul class="import-link ps-0 mb-0 list-unstyled">
                 <li>
-                  <router-link to="/service-details">Google Ads</router-link>
+                  <router-link to="/service-details">{{ t('footer.googleSearchAds') }}</router-link>
                 </li>
                 <li>
                   <router-link to="/service-details">
-                    Social Media Ads
+                    {{ t('footer.googleDisplayAds') }}
                   </router-link>
                 </li>
                 <li>
                   <router-link to="/service-details">
-                    Amazon Shopping
+                    {{ t('footer.googleShoppingAds') }}
                   </router-link>
                 </li>
                 <li>
                   <router-link to="/service-details">
-                    Email Marketing
+                    {{ t('footer.youtubeAds') }}
                   </router-link>
                 </li>
                 <li>
-                  <router-link to="/service-details">Microsoft Ads</router-link>
+                  <router-link to="/service-details">{{ t('footer.remarketingCampaigns') }}</router-link>
                 </li>
               </ul>
             </div>
@@ -44,25 +44,25 @@
             data-aos-delay="300"
           >
             <div class="footer-widget-single-item">
-              <h3>Resources</h3>
+              <h3>{{ t('footer.resources') }}</h3>
 
               <ul class="import-link ps-0 mb-0 list-unstyled">
                 <li>
-                  <router-link to="/blog">Our Blog</router-link>
+                  <router-link to="/blog">{{ t('footer.blog') }}</router-link>
                 </li>
                 <li>
                   <router-link to="/success-stories"
-                    >Success Stories</router-link
+                    >{{ t('footer.caseStudies') }}</router-link
                   >
                 </li>
                 <li>
-                  <router-link to="/about-us">Customers Review</router-link>
+                  <router-link to="/blog">{{ t('footer.industryInsights') }}</router-link>
                 </li>
                 <li>
-                  <router-link to="/contact-us">Contact Us</router-link>
+                  <router-link to="/contact-us">{{ t('nav.contact') }}</router-link>
                 </li>
                 <li>
-                  <router-link to="/about-us">About Us</router-link>
+                  <router-link to="/about-us">{{ t('nav.aboutUs') }}</router-link>
                 </li>
               </ul>
             </div>
@@ -74,23 +74,23 @@
             data-aos-delay="400"
           >
             <div class="footer-widget-single-item">
-              <h3>Opportunities</h3>
+              <h3>{{ t('footer.opportunities') }}</h3>
 
               <ul class="import-link ps-0 mb-0 list-unstyled">
                 <li>
-                  <router-link to="/careers">Careers</router-link>
+                  <router-link to="/careers">{{ t('footer.joinOurTeam') }}</router-link>
                 </li>
                 <li>
-                  <router-link to="/about-us">Partnerships</router-link>
+                  <router-link to="/about-us">{{ t('footer.partnerships') }}</router-link>
                 </li>
                 <li>
-                  <router-link to="/about-us">Awards</router-link>
+                  <router-link to="/success-stories">{{ t('nav.successStories') }}</router-link>
                 </li>
                 <li>
-                  <router-link to="/about-us">Get A Proposal</router-link>
+                  <router-link to="/contact-us">{{ t('nav.getProposal') }}</router-link>
                 </li>
                 <li>
-                  <router-link to="/services">Free Audit</router-link>
+                  <router-link to="/services">{{ t('nav.ourServices') }}</router-link>
                 </li>
               </ul>
             </div>
@@ -102,17 +102,17 @@
             data-aos-delay="500"
           >
             <div class="footer-widget-single-item">
-              <h3>Signup Newsletter</h3>
+              <h3>{{ t('footer.newsletterTitle') }}</h3>
 
               <form class="signup-form">
                 <div class="form-group">
                   <input
                     type="text"
                     class="form-control"
-                    placeholder="Email Address"
+                    :placeholder="t('footer.newsletterPlaceholder')"
                   />
                   <button type="submit" class="default-btn">
-                    SIGNUP NOW
+                    {{ t('footer.subscribe') }}
                     <img
                       src="../../assets/images/icon-right-white.png"
                       alt="icon-right-white"
@@ -172,22 +172,28 @@
         class="copy-right d-md-flex justify-content-between align-items-center text-center"
       >
         <p class="mb-0">
-          ©<span>Adli.</span> All Rights Reserved by
-          <a href="https://hibootstrap.com/" target="_blank">HiBootstrap</a>
+          {{ t('footer.copyright') }}
         </p>
         <p class="mb-0">
-          <router-link to="/privacy-policy">Privacy & Policy</router-link> |
-          <router-link to="/terms-conditions">Terms & Conditions</router-link>
+          <router-link to="/privacy-policy">{{ t('nav.privacyPolicy') }}</router-link> |
+          <router-link to="/terms-conditions">{{ t('nav.termsConditions') }}</router-link>
         </p>
       </div>
     </div>
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from "vue";
+import { useI18n } from "vue-i18n";
+
+export default defineComponent({
   name: "MainFooter",
-};
+  setup() {
+    const { t } = useI18n();
+    return { t };
+  },
+});
 </script>
 
 <style lang="scss" scoped>

@@ -23,13 +23,13 @@ import ErrorPage from "../pages/ErrorPage.vue";
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    name: "PaidSearchAdAgencyPage",
-    component: PaidSearchAdAgencyPage,
-  },
-  {
-    path: "/social-media-ad-agency",
     name: "SocialMediaAdAgencyPage",
     component: SocialMediaAdAgencyPage,
+  },
+  {
+    path: "/paid-search-ad-agency",
+    name: "PaidSearchAdAgencyPage",
+    component: PaidSearchAdAgencyPage,
   },
   {
     path: "/traditional-offline-ad-agency",
