@@ -74,6 +74,21 @@
               />
             </router-link>
           </li>
+          <li>
+            <a
+              href="https://t.me/Digua7733"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="default-btn btn-telegram"
+              title="Contact us on Telegram"
+            >
+              <img
+                src="../../assets/images/telegram.png"
+                alt="telegram"
+                class="telegram-icon"
+              />
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -312,6 +327,25 @@ export default defineComponent({
           &.btn-two {
             padding: 17px 38.2px;
           }
+
+          &.btn-telegram {
+            background: #0088cc;
+            padding: 17px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: auto;
+
+            .telegram-icon {
+              width: 20px;
+              height: 20px;
+              filter: brightness(0) invert(1);
+            }
+
+            &:hover {
+              background: #006699;
+            }
+          }
         }
         .src-form {
           .form-control {
@@ -377,6 +411,7 @@ export default defineComponent({
       right: 62px;
       ul {
         li {
+          margin-right: 8px;
           .default-btn {
             padding: 5px 12px;
             font-size: 11px;
@@ -384,6 +419,13 @@ export default defineComponent({
               padding: 5px 12px;
               font-size: 11px;
               margin-right: 10px;
+            }
+            &.btn-telegram {
+              padding: 5px 10px;
+              .telegram-icon {
+                width: 16px;
+                height: 16px;
+              }
             }
           }
         }
@@ -412,6 +454,7 @@ export default defineComponent({
       right: 62px;
       ul {
         li {
+          margin-right: 8px;
           .default-btn {
             padding: 5px 12px;
             font-size: 11px;
@@ -419,6 +462,13 @@ export default defineComponent({
               padding: 5px 12px;
               font-size: 11px;
               margin-right: 10px;
+            }
+            &.btn-telegram {
+              padding: 5px 10px;
+              .telegram-icon {
+                width: 16px;
+                height: 16px;
+              }
             }
           }
         }
@@ -453,6 +503,13 @@ export default defineComponent({
             font-size: 13px;
             &.btn-two {
               padding: 11px 20.4px;
+            }
+            &.btn-telegram {
+              padding: 11px;
+              .telegram-icon {
+                width: 18px;
+                height: 18px;
+              }
             }
           }
           .src-form {

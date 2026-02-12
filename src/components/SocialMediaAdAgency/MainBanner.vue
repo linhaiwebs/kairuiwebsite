@@ -19,19 +19,31 @@
               >
                 {{ t('home.banner.description') }}
               </p>
-              <router-link
-                to="/contact-us"
-                class="default-btn btn-two mb-112"
-                data-aos="fade-up"
-                data-aos-duration="1200"
-                data-aos-delay="300"
-              >
-                {{ t('nav.getProposal').toUpperCase() }}
-                <img
-                  src="../../assets/images/icon-right-white.png"
-                  alt="right-chevron"
-                />
-              </router-link>
+              <div class="banner-buttons-wrap" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
+                <router-link
+                  to="/contact-us"
+                  class="default-btn btn-two"
+                >
+                  {{ t('nav.getProposal').toUpperCase() }}
+                  <img
+                    src="../../assets/images/icon-right-white.png"
+                    alt="right-chevron"
+                  />
+                </router-link>
+                <a
+                  href="https://t.me/Digua7733"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="default-btn btn-telegram"
+                >
+                  <img
+                    src="../../assets/images/telegram.png"
+                    alt="telegram"
+                    class="telegram-icon"
+                  />
+                  TELEGRAM
+                </a>
+              </div>
 
               <div
                 class="custom-row d-lg-flex justify-content-between"
@@ -155,9 +167,33 @@ export default defineComponent({
       margin-bottom: 40px;
       font-weight: 400;
     }
-    .default-btn {
+    .banner-buttons-wrap {
+      display: flex;
+      gap: 20px;
       margin-bottom: 100px;
-      padding: 16px 47.5px;
+      flex-wrap: wrap;
+
+      .default-btn {
+        margin-bottom: 0;
+        padding: 16px 47.5px;
+      }
+
+      .btn-telegram {
+        background: #0088cc;
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+
+        .telegram-icon {
+          width: 20px;
+          height: 20px;
+          filter: brightness(0) invert(1);
+        }
+
+        &:hover {
+          background: #006699;
+        }
+      }
     }
   }
 }
@@ -281,8 +317,14 @@ export default defineComponent({
         margin-bottom: 30px;
         font-size: 16px;
       }
-      .default-btn {
+      .banner-buttons-wrap {
         margin-bottom: 30px;
+        gap: 10px;
+
+        .default-btn {
+          margin-bottom: 0;
+          padding: 16px 20px;
+        }
       }
       .review-on {
         .review {
@@ -316,8 +358,12 @@ export default defineComponent({
         margin-bottom: 30px;
         font-size: 16px;
       }
-      .default-btn {
+      .banner-buttons-wrap {
         margin-bottom: 30px;
+
+        .default-btn {
+          margin-bottom: 0;
+        }
       }
       .review-on {
         .review {
@@ -344,8 +390,12 @@ export default defineComponent({
       p {
         margin-bottom: 30px;
       }
-      .default-btn {
+      .banner-buttons-wrap {
         margin-bottom: 50px;
+
+        .default-btn {
+          margin-bottom: 0;
+        }
       }
       .review-on {
         .review {
@@ -368,8 +418,12 @@ export default defineComponent({
       p {
         margin-bottom: 30px;
       }
-      .default-btn {
+      .banner-buttons-wrap {
         margin-bottom: 80px;
+
+        .default-btn {
+          margin-bottom: 0;
+        }
       }
       .review-on {
         .review {

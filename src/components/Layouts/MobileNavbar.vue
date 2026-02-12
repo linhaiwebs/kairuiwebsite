@@ -54,6 +54,21 @@
           </router-link>
         </li>
       </ul>
+      <div class="mobile-cta-section">
+        <a
+          href="https://t.me/Digua7733"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mobile-telegram-btn"
+        >
+          <img
+            src="../../assets/images/telegram.png"
+            alt="telegram"
+            class="telegram-icon"
+          />
+          <span>联系我们 Telegram</span>
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -109,6 +124,37 @@ export default defineComponent({
     &.active {
       color: var(--mainColor);
       background-color: #f2f2f8;
+    }
+  }
+}
+
+.mobile-cta-section {
+  padding: 20px;
+  margin-top: 20px;
+
+  .mobile-telegram-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px 25px;
+    background: #0088cc;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: var(--headingFontFamily);
+    font-weight: 600;
+    font-size: 16px;
+    transition: var(--transition);
+
+    .telegram-icon {
+      width: 24px;
+      height: 24px;
+      filter: brightness(0) invert(1);
+    }
+
+    &:hover {
+      background: #006699;
     }
   }
 }

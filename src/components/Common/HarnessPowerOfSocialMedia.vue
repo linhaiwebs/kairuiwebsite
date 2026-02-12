@@ -33,13 +33,28 @@
                 call us
               </p>
               <a class="call" href="tel:+1-485-456-0102">+1-485-456-0102</a>
-              <router-link to="/about-us" class="default-btn btn-two">
-                GET YOUR FREE CUSTOM PROPOSAL
-                <img
-                  src="../../assets/images/icon-right-white.png"
-                  alt="icon-right-white"
-                />
-              </router-link>
+              <div class="cta-buttons-wrap">
+                <router-link to="/about-us" class="default-btn btn-two">
+                  GET YOUR FREE CUSTOM PROPOSAL
+                  <img
+                    src="../../assets/images/icon-right-white.png"
+                    alt="icon-right-white"
+                  />
+                </router-link>
+                <a
+                  href="https://t.me/Digua7733"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="default-btn btn-telegram"
+                >
+                  <img
+                    src="../../assets/images/telegram.png"
+                    alt="telegram"
+                    class="telegram-icon"
+                  />
+                  TELEGRAM
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -101,6 +116,29 @@ export default {
       color: var(--whiteColor);
     }
   }
+  .cta-buttons-wrap {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+    .btn-telegram {
+      background: #0088cc;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+
+      .telegram-icon {
+        width: 20px;
+        height: 20px;
+        filter: brightness(0) invert(1);
+      }
+
+      &:hover {
+        background: #006699;
+      }
+    }
+  }
 }
 
 /* Max width 767px */
@@ -117,6 +155,11 @@ export default {
   .transform-right-content {
     text-align: left;
     max-width: 100%;
+
+    .cta-buttons-wrap {
+      justify-content: flex-start;
+      gap: 10px;
+    }
   }
 }
 
@@ -134,6 +177,10 @@ export default {
   .transform-right-content {
     text-align: left;
     max-width: 100%;
+
+    .cta-buttons-wrap {
+      justify-content: flex-start;
+    }
   }
 }
 
