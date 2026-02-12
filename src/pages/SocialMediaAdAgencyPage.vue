@@ -4,10 +4,7 @@
   <WhatWeDo />
   <AwardWinningAgency />
   <CapabilitiesContent />
-  <OurProcess />
-  <SuccessStories />
   <UnlockSocialMediaPotential />
-  <TestimonialsContent />
   <IncreaseYourBrands />
   <DriveTraffic />
   <OurBlog class="pt-100" />
@@ -22,10 +19,7 @@ import MainBanner from "../components/SocialMediaAdAgency/MainBanner.vue";
 import WhatWeDo from "../components/SocialMediaAdAgency/WhatWeDo.vue";
 import AwardWinningAgency from "../components/SocialMediaAdAgency/AwardWinningAgency.vue";
 import CapabilitiesContent from "../components/SocialMediaAdAgency/CapabilitiesContent.vue";
-import OurProcess from "../components/Common/OurProcess.vue";
-import SuccessStories from "../components/SocialMediaAdAgency/SuccessStories.vue";
 import UnlockSocialMediaPotential from "../components/SocialMediaAdAgency/UnlockSocialMediaPotential.vue";
-import TestimonialsContent from "../components/SocialMediaAdAgency/TestimonialsContent.vue";
 import IncreaseYourBrands from "../components/Common/IncreaseYourBrands.vue";
 import DriveTraffic from "../components/SocialMediaAdAgency/DriveTraffic.vue";
 import OurBlog from "../components/Common/OurBlog.vue";
@@ -40,10 +34,7 @@ export default defineComponent({
     WhatWeDo,
     AwardWinningAgency,
     CapabilitiesContent,
-    OurProcess,
-    SuccessStories,
     UnlockSocialMediaPotential,
-    TestimonialsContent,
     IncreaseYourBrands,
     DriveTraffic,
     OurBlog,
