@@ -23,169 +23,37 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul :class="['navbar-nav', className]">
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="javascript:void(0)"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
+          <li class="nav-item">
+            <router-link class="nav-link" to="/">
               {{ t('nav.home') }}
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <router-link class="dropdown-item" to="/">
-                  {{ t('nav.socialMediaAdAgency') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/paid-search-ad-agency">
-                  {{ t('nav.googleAdAgency') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link
-                  class="dropdown-item"
-                  to="/traditional-offline-ad-agency"
-                >
-                  {{ t('nav.traditionalOfflineAdAgency') }}
-                </router-link>
-              </li>
-            </ul>
+            </router-link>
           </li>
 
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="javascript:void(0)"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              {{ t('nav.ourSolutions') }}
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <router-link class="dropdown-item" to="/services">
-                  {{ t('nav.ourServices') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/service-details">
-                  {{ t('nav.serviceDetails') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/our-team">
-                  {{ t('nav.ourTeam') }}
-                </router-link>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/services">
+              {{ t('nav.ourServices') }}
+            </router-link>
           </li>
 
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="javascript:void(0)"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              {{ t('nav.whoWeAre') }}
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <router-link class="dropdown-item" to="/about-us">
-                  {{ t('nav.aboutUs') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/careers">
-                  {{ t('nav.careers') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/career-details">
-                  {{ t('nav.careerDetails') }}
-                </router-link>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/about-us">
+              {{ t('nav.aboutUs') }}
+            </router-link>
           </li>
 
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="javascript:void(0)"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              {{ t('nav.ourWork') }}
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <router-link class="dropdown-item" to="/success-stories">
-                  {{ t('nav.successStories') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/success-story-details">
-                  {{ t('nav.successStoryDetails') }}
-                </router-link>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/success-stories">
+              {{ t('nav.successStories') }}
+            </router-link>
           </li>
 
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="javascript:void(0)"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              {{ t('nav.pages') }}
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <router-link class="dropdown-item" to="/blog">
-                  {{ t('nav.ourBlog') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/blog-details">
-                  {{ t('nav.blogDetails') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/tags">
-                  {{ t('nav.tags') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/categories">
-                  {{ t('nav.categories') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/author">
-                  {{ t('nav.author') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/privacy-policy">
-                  {{ t('nav.privacyPolicy') }}
-                </router-link>
-              </li>
-              <li>
-                <router-link class="dropdown-item" to="/terms-conditions">
-                  {{ t('nav.termsConditions') }}
-                </router-link>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/blog">
+              {{ t('nav.ourBlog') }}
+            </router-link>
           </li>
-          <li class="nav-item dropdown">
+
+          <li class="nav-item">
             <router-link class="nav-link" to="/contact-us">
               {{ t('nav.contact') }}
             </router-link>
