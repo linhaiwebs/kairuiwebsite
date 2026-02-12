@@ -20,16 +20,6 @@
                 {{ t('home.banner.description') }}
               </p>
               <div class="banner-buttons-wrap" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
-                <router-link
-                  to="/contact-us"
-                  class="default-btn btn-two"
-                >
-                  {{ t('nav.getProposal').toUpperCase() }}
-                  <img
-                    src="../../assets/images/icon-right-white.png"
-                    alt="right-chevron"
-                  />
-                </router-link>
                 <a
                   href="https://t.me/Digua7733"
                   target="_blank"

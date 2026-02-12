@@ -43,19 +43,6 @@
             </li>
           </ul>
 
-          <router-link
-            to="/contact-us"
-            class="default-btn btn-two"
-            data-aos="fade-up"
-            data-aos-duration="1200"
-            data-aos-delay="300"
-          >
-            {{ t('nav.getProposal').toUpperCase() }}
-            <img
-              src="../../assets/images/icon-right-white.png"
-              alt="icon-right-white"
-            />
-          </router-link>
         </div>
         <div class="col-lg-6">
           <div
@@ -67,13 +54,6 @@
             <p>
               {{ t('home.banner.description') }}
             </p>
-            <router-link to="/about-us" class="read-more">
-              {{ t('common.learnMore').toUpperCase() }}
-              <img
-                src="../../assets/images/icon-right-red.png"
-                alt="icon-right-red"
-              />
-            </router-link>
           </div>
 
           <div
