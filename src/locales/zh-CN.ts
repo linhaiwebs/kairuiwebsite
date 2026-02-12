@@ -51,67 +51,67 @@ export default {
   },
   home: {
     banner: {
-      title: '驱动成果',
-      subtitle: '通过谷歌广告',
-      description: 'Kairui（凯瑞）专注于谷歌广告投放服务，帮助企业实现精准营销，提升ROI，让您的品牌在搜索引擎中脱颖而出。',
+      title: '十年投流经验',
+      subtitle: '专业谷歌广告解决方案',
+      description: 'Kairui（凯瑞）拥有十年谷歌投流经验，提供完整的投流解决终端、落地页分发系统，配备真实数据监控和运营商级用户监控，完全优于市场传统系统，为您的业务带来卓越成效。',
       getStarted: '开始使用',
       learnMore: '了解更多',
       trustedBy: '受到信赖'
     },
     whatWeDo: {
-      title: '我们的谷歌广告服务',
-      subtitle: '全方位的谷歌广告解决方案',
+      title: '我们的核心服务',
+      subtitle: '完整的谷歌广告投流解决方案',
       searchAds: {
-        title: '谷歌搜索广告',
-        description: '精准定位您的目标客户，在他们搜索相关产品或服务时展示您的广告，提高转化率。'
+        title: '完整投流终端',
+        description: '提供从广告创建到投放优化的完整解决方案，涵盖谷歌搜索、展示、购物等全渠道广告投放。'
       },
       displayAds: {
-        title: '谷歌展示广告',
-        description: '通过Google展示网络在数百万网站上展示视觉吸引力的广告，扩大品牌影响力。'
+        title: '落地页分发系统',
+        description: '智能落地页分发技术，根据用户特征和行为自动匹配最优落地页，大幅提升转化率。'
       },
       shoppingAds: {
-        title: '谷歌购物广告',
-        description: '展示产品图片、价格和店铺信息，直接在搜索结果中吸引购物者，提升电商销量。'
+        title: '真实数据监控',
+        description: '实时监控广告数据和用户行为，提供真实可靠的数据分析，杜绝虚假流量和无效点击。'
       },
       youtubeAds: {
-        title: 'YouTube视频广告',
-        description: '利用全球最大的视频平台，通过引人入胜的视频广告与您的受众建立联系。'
+        title: '运营商级监控',
+        description: '采用运营商级别的用户监控技术，精准识别用户来源和行为轨迹，确保广告投放精准有效。'
       },
       remarketing: {
-        title: '再营销活动',
-        description: '重新吸引曾访问过您网站的用户，提高转化率和客户回访率。'
+        title: '智能投放优化',
+        description: '基于AI算法的智能出价和投放优化系统，自动调整广告策略，实现ROI最大化。'
       },
       analytics: {
-        title: '数据分析与优化',
-        description: '实时监控广告效果，通过数据驱动的洞察持续优化广告投放策略。'
+        title: '专业团队支持',
+        description: '十年经验的专业团队7×24小时监控和优化，确保广告效果持续提升。'
       }
     },
     capabilities: {
       title: '为什么选择Kairui',
       subtitle: '我们的核心优势',
       googleCertified: {
-        title: 'Google认证专家',
-        description: '我们的团队拥有Google Ads认证资质，确保专业的广告管理服务。'
+        title: '十年投流经验',
+        description: '深耕谷歌广告投放领域十年，积累了丰富的实战经验和成功案例，为客户提供最专业的服务。'
       },
       datadriven: {
-        title: '数据驱动决策',
-        description: '基于深度数据分析，制定和优化每一个广告活动，确保最佳ROI。'
+        title: '完整解决方案',
+        description: '从账户搭建、广告创意、落地页优化到数据分析，提供端到端的完整投流解决方案。'
       },
       customizedStrategy: {
-        title: '定制化策略',
-        description: '根据您的业务目标和行业特点，量身定制谷歌广告投放方案。'
+        title: '落地页分发系统',
+        description: '独家落地页分发技术，智能匹配用户特征，显著提升广告转化率和用户体验。'
       },
       transparentReporting: {
-        title: '透明的报告',
-        description: '定期提供详细的广告效果报告，让您清楚了解每一分钱的去向和回报。'
+        title: '真实数据监控',
+        description: '部署真实数据监控系统，确保广告数据真实可靠，让您的每一分预算都花在刀刃上。'
       },
       continuousOptimization: {
-        title: '持续优化',
-        description: '不断测试和优化广告文案、关键词和出价策略，提升广告效果。'
+        title: '运营商级监控',
+        description: '采用运营商级用户监控技术，精准追踪用户行为，完全优于市场传统监控方案。'
       },
       localExpertise: {
-        title: '本地化专业知识',
-        description: '深入了解中国市场和国际市场，为您提供跨境广告投放服务。'
+        title: '优质客户服务',
+        description: '专业团队提供一对一服务，深入理解您的业务需求，制定最适合的投放策略。'
       }
     },
     process: {

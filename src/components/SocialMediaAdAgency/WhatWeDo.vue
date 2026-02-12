@@ -9,8 +9,8 @@
             data-aos-duration="1200"
             data-aos-delay="100"
           >
-            <span class="top-title">WHAT WE DO</span>
-            <h2>Driving success through strategic paid search advertising!</h2>
+            <span class="top-title">{{ t('home.whatWeDo.title').toUpperCase() }}</span>
+            <h2>{{ t('home.whatWeDo.subtitle') }}</h2>
           </div>
 
           <ul
@@ -44,13 +44,13 @@
           </ul>
 
           <router-link
-            to="/careers"
+            to="/contact-us"
             class="default-btn btn-two"
             data-aos="fade-up"
             data-aos-duration="1200"
             data-aos-delay="300"
           >
-            GET YOUR FREE CUSTOM PROPOSAL
+            {{ t('nav.getProposal').toUpperCase() }}
             <img
               src="../../assets/images/icon-right-white.png"
               alt="icon-right-white"
@@ -65,12 +65,10 @@
             data-aos-delay="200"
           >
             <p>
-              Transforming your brand's online presence and generating
-              meaningful results is our top priority at <span>Adli.</span> As a
-              leading paid search ad agency,
+              {{ t('home.banner.description') }}
             </p>
             <router-link to="/about-us" class="read-more">
-              KNOW MORE ABOUT US
+              {{ t('common.learnMore').toUpperCase() }}
               <img
                 src="../../assets/images/icon-right-red.png"
                 alt="icon-right-red"
@@ -114,56 +112,60 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref, computed } from "vue";
+import { useI18n } from "vue-i18n";
 
 export default defineComponent({
   name: "WhatWeDo",
   setup() {
+    const { t } = useI18n();
     const activeIndex = ref(0);
 
-    const items = [
+    const items = computed(() => [
       {
         id: 1,
-        title: "Result driven marketing",
+        title: t('home.whatWeDo.searchAds.title'),
         image: require("../../assets/images/icon-diagram2.png"),
-        description:
-          "Work closely with clients to understand their business goals, target audience, and budget. Develop a comprehensive paid search strategy",
+        description: t('home.whatWeDo.searchAds.description'),
       },
       {
         id: 2,
-        title: "Social media focused",
+        title: t('home.whatWeDo.displayAds.title'),
         image: require("../../assets/images/icon-diagram2.png"),
-        description:
-          "Work closely with clients to understand their business goals, target audience, and budget. Develop a comprehensive paid search strategy",
+        description: t('home.whatWeDo.displayAds.description'),
       },
       {
         id: 3,
-        title: "Content creation",
+        title: t('home.whatWeDo.shoppingAds.title'),
         image: require("../../assets/images/icon-diagram2.png"),
-        description:
-          "Work closely with clients to understand their business goals, target audience, and budget. Develop a comprehensive paid search strategy",
+        description: t('home.whatWeDo.shoppingAds.description'),
       },
       {
         id: 4,
-        title: "Idea factory",
+        title: t('home.whatWeDo.youtubeAds.title'),
         image: require("../../assets/images/icon-diagram2.png"),
-        description:
-          "Work closely with clients to understand their business goals, target audience, and budget. Develop a comprehensive paid search strategy",
+        description: t('home.whatWeDo.youtubeAds.description'),
       },
       {
         id: 5,
-        title: "In-house production",
+        title: t('home.whatWeDo.remarketing.title'),
         image: require("../../assets/images/icon-diagram2.png"),
-        description:
-          "Work closely with clients to understand their business goals, target audience, and budget. Develop a comprehensive paid search strategy",
+        description: t('home.whatWeDo.remarketing.description'),
       },
-    ];
+      {
+        id: 6,
+        title: t('home.whatWeDo.analytics.title'),
+        image: require("../../assets/images/icon-diagram2.png"),
+        description: t('home.whatWeDo.analytics.description'),
+      },
+    ]);
 
     const setActive = (index: number) => {
       activeIndex.value = index;
     };
 
     return {
+      t,
       activeIndex,
       items,
       setActive,

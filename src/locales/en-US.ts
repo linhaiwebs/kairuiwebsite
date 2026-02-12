@@ -51,67 +51,67 @@ export default {
   },
   home: {
     banner: {
-      title: 'Driving Results',
-      subtitle: 'Through Google Advertising',
-      description: 'Kairui specializes in Google Ads management, helping businesses achieve precise marketing, improve ROI, and make your brand stand out in search engines.',
+      title: '10 Years of Experience',
+      subtitle: 'Professional Google Ads Solutions',
+      description: 'Kairui brings 10 years of Google Ads expertise, offering complete campaign terminals, landing page distribution systems, real data monitoring, and carrier-grade user tracking - far superior to traditional market solutions, delivering exceptional results for your business.',
       getStarted: 'Get Started',
       learnMore: 'Learn More',
       trustedBy: 'Trusted By'
     },
     whatWeDo: {
-      title: 'Our Google Advertising Services',
-      subtitle: 'Comprehensive Google Ads Solutions',
+      title: 'Our Core Services',
+      subtitle: 'Complete Google Ads Campaign Solutions',
       searchAds: {
-        title: 'Google Search Ads',
-        description: 'Precisely target your ideal customers by displaying ads when they search for relevant products or services, improving conversion rates.'
+        title: 'Complete Campaign Terminal',
+        description: 'Comprehensive solution from ad creation to optimization, covering all Google advertising channels including Search, Display, and Shopping.'
       },
       displayAds: {
-        title: 'Google Display Ads',
-        description: 'Showcase visually appealing ads across millions of websites through the Google Display Network, expanding brand reach.'
+        title: 'Landing Page Distribution',
+        description: 'Smart landing page distribution technology that automatically matches optimal pages based on user characteristics and behavior, dramatically improving conversion rates.'
       },
       shoppingAds: {
-        title: 'Google Shopping Ads',
-        description: 'Display product images, prices, and store information directly in search results to attract shoppers and boost e-commerce sales.'
+        title: 'Real Data Monitoring',
+        description: 'Real-time monitoring of ad data and user behavior, providing authentic and reliable analytics while eliminating fake traffic and invalid clicks.'
       },
       youtubeAds: {
-        title: 'YouTube Video Ads',
-        description: 'Leverage the world\'s largest video platform to connect with your audience through engaging video advertisements.'
+        title: 'Carrier-Grade Monitoring',
+        description: 'Utilizing carrier-grade user monitoring technology to precisely identify user sources and behavior patterns, ensuring accurate and effective ad delivery.'
       },
       remarketing: {
-        title: 'Remarketing Campaigns',
-        description: 'Re-engage users who have previously visited your website, improving conversion rates and customer retention.'
+        title: 'Smart Campaign Optimization',
+        description: 'AI-powered intelligent bidding and optimization system that automatically adjusts ad strategies to maximize ROI.'
       },
       analytics: {
-        title: 'Analytics & Optimization',
-        description: 'Monitor ad performance in real-time and continuously optimize campaigns through data-driven insights.'
+        title: 'Professional Team Support',
+        description: 'Experienced team with 10 years of expertise providing 24/7 monitoring and optimization to ensure continuous performance improvement.'
       }
     },
     capabilities: {
       title: 'Why Choose Kairui',
       subtitle: 'Our Core Advantages',
       googleCertified: {
-        title: 'Google Certified Experts',
-        description: 'Our team holds Google Ads certifications, ensuring professional advertising management services.'
+        title: '10 Years of Expertise',
+        description: 'A decade of deep experience in Google advertising, with a proven track record of successful campaigns and satisfied clients.'
       },
       datadriven: {
-        title: 'Data-Driven Decisions',
-        description: 'Develop and optimize every campaign based on deep data analysis to ensure the best ROI.'
+        title: 'Complete Solutions',
+        description: 'End-to-end campaign solutions from account setup, ad creative, landing page optimization to data analysis.'
       },
       customizedStrategy: {
-        title: 'Customized Strategy',
-        description: 'Tailor Google advertising strategies based on your business goals and industry characteristics.'
+        title: 'Landing Page Distribution',
+        description: 'Proprietary landing page distribution technology that intelligently matches user characteristics, significantly improving ad conversion and user experience.'
       },
       transparentReporting: {
-        title: 'Transparent Reporting',
-        description: 'Regular detailed performance reports keep you informed about where every dollar goes and the returns it generates.'
+        title: 'Real Data Monitoring',
+        description: 'Deployed real data monitoring system ensures authentic and reliable ad data, making every dollar of your budget count.'
       },
       continuousOptimization: {
-        title: 'Continuous Optimization',
-        description: 'Constantly test and optimize ad copy, keywords, and bidding strategies to improve ad performance.'
+        title: 'Carrier-Grade Monitoring',
+        description: 'Employing carrier-grade user monitoring technology for precise behavior tracking, completely superior to traditional market monitoring solutions.'
       },
       localExpertise: {
-        title: 'Local Expertise',
-        description: 'Deep understanding of Chinese and international markets, providing cross-border advertising services.'
+        title: 'Premium Customer Service',
+        description: 'Professional team providing one-on-one service, deeply understanding your business needs to develop optimal campaign strategies.'
       }
     },
     process: {
