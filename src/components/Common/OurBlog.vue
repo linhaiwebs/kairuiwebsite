@@ -15,7 +15,7 @@
       </div>
       <div class="row justify-content-center">
         <div
-          class="col-xl-4 col-md-6"
+          class="col-lg-4 col-md-4"
           v-for="blog in blogs"
           :key="blog.id"
           data-aos="fade-up"

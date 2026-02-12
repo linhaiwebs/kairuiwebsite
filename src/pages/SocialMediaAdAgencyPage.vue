@@ -2,7 +2,6 @@
   <MainNavbar class="bg-white" mwClass="mw-1740" className="ms-auto" />
   <MainBanner />
   <WhatWeDo />
-  <AwardWinningAgency />
   <CapabilitiesContent />
   <UnlockSocialMediaPotential />
   <IncreaseYourBrands />
@@ -17,7 +16,6 @@ import { defineComponent } from "vue";
 import MainNavbar from "../components/Layouts/MainNavbar.vue";
 import MainBanner from "../components/SocialMediaAdAgency/MainBanner.vue";
 import WhatWeDo from "../components/SocialMediaAdAgency/WhatWeDo.vue";
-import AwardWinningAgency from "../components/SocialMediaAdAgency/AwardWinningAgency.vue";
 import CapabilitiesContent from "../components/SocialMediaAdAgency/CapabilitiesContent.vue";
 import UnlockSocialMediaPotential from "../components/SocialMediaAdAgency/UnlockSocialMediaPotential.vue";
 import IncreaseYourBrands from "../components/Common/IncreaseYourBrands.vue";
@@ -32,7 +30,6 @@ export default defineComponent({
     MainNavbar,
     MainBanner,
     WhatWeDo,
-    AwardWinningAgency,
     CapabilitiesContent,
     UnlockSocialMediaPotential,
     IncreaseYourBrands,
