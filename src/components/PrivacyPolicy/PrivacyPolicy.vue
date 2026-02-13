@@ -1,103 +1,72 @@
 <template>
   <div class="container">
     <div class="main-content-text">
-      <span class="update">Last updated: October 2023</span>
-      <h3>Privacy policy</h3>
+      <span class="update">最后更新：2026年2月</span>
+      <h3>隐私政策</h3>
       <p>
-        Turpis gravida turpis mauris magna in libero ac dis consequat. Imperdiet
-        ac semper quisque volutpat consectetur cursus non pretium pharetra. Nisl
-        duis blandit dui imperdiet nec id integer. Elit varius cras arcu tempor
-        integer in.
+        我们非常重视您的隐私和个人信息保护。本隐私政策说明了我们如何收集、使用、存储和保护您的个人信息。
+        当您使用我们的广告营销服务、访问我们的网站或与我们互动时，即表示您同意本隐私政策中所述的做法。
       </p>
       <p>
-        Quam nunc arcu nunc a lobortis convallis magnis dolor. Integer malesuada
-        vel mi eu elementum. Etiam eget urna quis dui amet facilisis fringilla
-        sed. Massa vitae accumsan viverra in morbi nec volutpat aenean tortor.
-        At nec sagittis eget placerat. Mi accumsan massa vitae etiam nisi
-        suspendisse condimentum elementum. Arcu varius id ipsum arcu et diam non
-        rutrum. Auctor elit malesuada non aenean posuere mattis iaculis mauris
-        nibh.
+        我们致力于遵守所有适用的数据保护法律法规，确保您的个人信息得到安全和负责任的处理。
+        我们采用业界领先的安全措施来保护您的数据，并定期审查和更新我们的隐私保护实践。
+        如果您对我们的隐私政策有任何疑问或顾虑，请随时与我们联系。
       </p>
 
       <div class="gap-20"></div>
 
-      <h3>What type of personal information do we collect?</h3>
+      <h3>我们收集哪些类型的个人信息？</h3>
       <p>
-        Turpis gravida turpis mauris magna in libero ac dis consequat. Imperdiet
-        ac semper quisque volutpat consectetur cursus non pretium pharetra. Nisl
-        duis blandit dui imperdiet nec id integer. Elit varius cras arcu tempor
-        integer in. Quam nunc arcu nunc a lobortis convallis magnis dolor.
-        Integer malesuada vel mi eu elementum. Etiam eget urna quis dui amet
-        facilisis fringilla sed. Massa vitae accumsan viverra in morbi nec
-        volutpat aenean tortor. At nec sagittis eget placerat. Mi accumsan massa
-        vitae etiam nisi suspendisse condimentum elementum. Arcu varius id ipsum
-        arcu et diam non rutrum. Auctor elit malesuada non aenean posuere mattis
-        iaculis mauris nibh.
+        为了向您提供优质的广告营销服务，我们可能会收集以下类型的信息：联系信息（如姓名、电子邮箱、电话号码）、
+        公司信息（如公司名称、职位、行业类型）、业务需求和营销目标、网站使用数据和分析信息、
+        广告活动数据和效果指标。这些信息帮助我们更好地了解您的需求，为您定制最合适的广告解决方案。
       </p>
 
       <div class="gap-20"></div>
 
-      <h3>How do we collect your personal data?</h3>
+      <h3>我们如何收集您的个人数据？</h3>
       <p>
-        Turpis gravida turpis mauris magna in libero ac dis consequat. Imperdiet
-        ac semper quisque volutpat consectetur cursus non pretium pharetra. Nisl
-        duis blandit dui imperdiet nec id integer. Elit varius cras arcu tempor
-        integer in.
+        我们通过多种合法途径收集您的个人信息，所有收集活动都遵循相关法律法规。
+        我们重视数据收集的透明度，确保您清楚了解我们如何获取您的信息。
       </p>
       <p>
-        Quam nunc arcu nunc a lobortis convallis magnis dolor. Integer malesuada
-        vel mi eu elementum. Etiam eget urna quis dui amet facilisis fringilla
-        sed. Massa vitae accumsan viverra in morbi nec volutpat aenean tortor.
-        At nec sagittis eget placerat. Mi accumsan massa vitae etiam nisi
-        suspendisse condimentum elementum. Arcu varius id ipsum arcu et diam non
-        rutrum. Auctor elit malesuada non aenean posuere mattis iaculis mauris
-        nibh.
+        我们的数据收集方式包括但不限于以下几种情况：
       </p>
       <ol>
         <li>
-          Imperdiet ac semper quisque volutpat consectetur cursus non pretium
-          pharetra.
+          当您主动填写我们网站上的联系表单、咨询表单或订阅我们的资讯时
         </li>
-        <li>Nisl duis blandit dui imperdiet nec id integer.</li>
-        <li>Quam nunc arcu nunc a lobortis convallis magnis dolor.</li>
+        <li>当您通过电话、电子邮件或在线聊天与我们的团队沟通时</li>
+        <li>当您参加我们举办的活动、研讨会或网络研讨会时</li>
         <li>
-          Massa vitae accumsan viverra in morbi nec volutpat aenean tortor.
+          通过Cookies和类似技术自动收集您的网站访问和使用行为数据
         </li>
       </ol>
 
       <div class="gap-20"></div>
 
-      <h3>What are our legal bases for processing your data?</h3>
+      <h3>我们处理您数据的法律依据是什么？</h3>
       <p>
-        Turpis gravida turpis mauris magna in libero ac dis consequat. Imperdiet
-        ac semper quisque volutpat consectetur cursus non pretium pharetra. Nisl
-        duis blandit dui imperdiet nec id integer. Elit varius cras arcu tempor
-        integer in. Quam nunc arcu nunc a lobortis convallis magnis dolor.
-        Integer malesuada vel mi eu elementum. Etiam eget urna quis dui amet
-        facilisis fringilla sed. Massa vitae accumsan viverra in morbi nec
-        volutpat aenean tortor. At nec sagittis eget placerat. Mi accumsan massa
-        vitae etiam nisi suspendisse condimentum elementum. Arcu varius id ipsum
-        arcu et diam non rutrum. Auctor elit malesuada non aenean posuere mattis
-        iaculis mauris nibh.
+        我们仅在具有合法法律依据的情况下处理您的个人数据。主要的法律依据包括：
+        履行与您签订的服务合同、遵守法律义务、保护您或他人的重要利益、
+        执行公共任务，以及我们或第三方的合法利益（如改进服务、防止欺诈）。
+        在某些情况下，我们会在处理您的敏感数据之前征得您的明确同意。
+        您有权随时撤回您的同意，但这不会影响撤回前基于同意进行的数据处理的合法性。
       </p>
 
       <div class="gap-20"></div>
 
-      <h3>Security</h3>
+      <h3>信息安全</h3>
       <p>
-        Turpis gravida turpis mauris magna in libero ac dis consequat. Imperdiet
-        ac semper quisque volutpat consectetur cursus non pretium pharetra. Nisl
-        duis blandit dui imperdiet nec id integer. Elit varius cras arcu tempor
-        integer in.
+        保护您的个人信息安全是我们的首要任务。我们采用多层次的技术和组织措施来防止未经授权的访问、
+        使用、披露、修改或销毁您的个人信息。这些措施包括但不限于：加密传输和存储、
+        访问控制和身份验证、定期安全审计和漏洞评估。
       </p>
       <p>
-        Quam nunc arcu nunc a lobortis convallis magnis dolor. Integer malesuada
-        vel mi eu elementum. Etiam eget urna quis dui amet facilisis fringilla
-        sed. Massa vitae accumsan viverra in morbi nec volutpat aenean tortor.
-        At nec sagittis eget placerat. Mi accumsan massa vitae etiam nisi
-        suspendisse condimentum elementum. Arcu varius id ipsum arcu et diam non
-        rutrum. Auctor elit malesuada non aenean posuere mattis iaculis mauris
-        nibh.
+        我们的员工和合作伙伴都受到严格的保密协议约束，只有经过授权并需要访问您的信息才能履行其职责的人员
+        才能访问您的个人数据。我们会定期对员工进行数据保护和安全意识培训。
+        尽管我们尽最大努力保护您的信息，但请注意，没有任何互联网传输或电子存储方法是100%安全的。
+        我们建议您也采取适当措施保护您的个人信息，如使用强密码并定期更改。
       </p>
     </div>
   </div>
