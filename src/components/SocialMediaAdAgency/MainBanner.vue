@@ -31,7 +31,7 @@
                     alt="telegram"
                     class="telegram-icon"
                   />
-                  TELEGRAM
+                  立即联系
                 </a>
               </div>
 

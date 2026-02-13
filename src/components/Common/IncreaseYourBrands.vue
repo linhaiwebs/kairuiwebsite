@@ -1,7 +1,7 @@
 <template>
   <div class="pb-100">
     <div class="container">
-      <span class="partner-title">与Adli一起提升品牌收益</span>
+      <span class="partner-title">与Kairui（凯瑞）一起提升品牌收益</span>
     </div>
   </div>
 </template>

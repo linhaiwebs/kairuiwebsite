@@ -11,7 +11,7 @@
           >
             <div class="transform-left-content style-two position-relative z-1">
               <h2>
-                Harness the power of social media, achieve marketing excellence!
+                携手Kairui（凯瑞），开启数字营销新纪元！
               </h2>
               <img
                 src="../../assets/images/shape-1.png"
@@ -28,19 +28,9 @@
           >
             <div class="transform-right-content style-two">
               <p>
-                The team at Adli continuously monitors and optimizes our
-                campaigns, keeping us ahead of the competition. Urgent need?
-                call us
+                Kairui（凯瑞）团队持续监控和优化广告投放，让您的业务始终保持竞争优势。有紧急需求？立即联系我们
               </p>
-              <a class="call" href="tel:+1-485-456-0102">+1-485-456-0102</a>
               <div class="cta-buttons-wrap">
-                <router-link to="/about-us" class="default-btn btn-two">
-                  GET YOUR FREE CUSTOM PROPOSAL
-                  <img
-                    src="../../assets/images/icon-right-white.png"
-                    alt="icon-right-white"
-                  />
-                </router-link>
                 <a
                   href="https://t.me/Digua7733"
                   target="_blank"
@@ -52,7 +42,7 @@
                     alt="telegram"
                     class="telegram-icon"
                   />
-                  TELEGRAM
+                  立即咨询
                 </a>
               </div>
             </div>

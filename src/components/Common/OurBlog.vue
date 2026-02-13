@@ -7,10 +7,10 @@
           data-aos="fade-up"
           data-aos-duration="1200"
           data-aos-delay="100"
-          >OUR BLOG</span
+          >我们的博客</span
         >
         <h2 data-aos="fade-up" data-aos-duration="1200" data-aos-delay="200">
-          Your path to paid search excellence starts here!
+          您的数字营销成功之路从这里开始！
         </h2>
       </div>
       <div class="row justify-content-center">
@@ -35,7 +35,7 @@
                 />
               </div>
               <div class="flex-grow-1 ms-3">
-                <span>Posted by</span>
+                <span>发布者</span>
                 <h6 class="mb-0">{{ blog.name }}</h6>
               </div>
             </router-link>
@@ -49,10 +49,10 @@
             </h3>
             <ul class="ps-0 mb-0 list-unstyled tags">
               <li>
-                <router-link to="/blog-details">Paid Advert</router-link>
+                <router-link to="/blog-details">付费广告</router-link>
               </li>
               <li>
-                <router-link to="/blog-details">Google Search</router-link>
+                <router-link to="/blog-details">谷歌搜索</router-link>
               </li>
             </ul>
           </div>
@@ -74,26 +74,25 @@ export default defineComponent({
           id: 1,
           dataDelay: 200,
           authorImage: require("../../assets/images/author.png"),
-          name: "Adli",
+          name: "Kairui（凯瑞）",
           image: require("../../assets/images/blog-1.jpg"),
-          title: "Demystifying Paid Search Ads: A Beginner's Guide",
+          title: "谷歌广告入门指南：从零开始的付费搜索之路",
         },
         {
           id: 2,
           dataDelay: 300,
           authorImage: require("../../assets/images/author.png"),
-          name: "Adli",
+          name: "Kairui（凯瑞）",
           image: require("../../assets/images/blog-2.jpg"),
-          title: "The Art of Writing Compelling Ad Copy for Paid Search",
+          title: "撰写高转化广告文案的艺术与技巧",
         },
         {
           id: 3,
           dataDelay: 400,
           authorImage: require("../../assets/images/author.png"),
-          name: "Adli",
+          name: "Kairui（凯瑞）",
           image: require("../../assets/images/blog-3.jpg"),
-          title:
-            "Targeting Techniques: Reaching the Right Audience in Paid Search",
+          title: "精准定位：如何在付费搜索中触达正确的受众",
         },
       ],
     };

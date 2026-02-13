@@ -10,7 +10,7 @@
             data-aos-delay="200"
           >
             <div class="transform-left-content position-relative z-1">
-              <h2>Unlock your social media potential, reach new heights!</h2>
+              <h2>释放数字营销潜力，成就卓越业绩！</h2>
               <img
                 src="../../assets/images/shape-1.png"
                 class="shape shape-4 position-absolute"
@@ -26,18 +26,21 @@
           >
             <div class="transform-right-content">
               <p>
-                The team at Adli continuously monitors and optimizes our
-                campaigns, keeping us ahead of the competition. Urgent need?
-                call us
+                Kairui（凯瑞）团队持续监控和优化广告投放，让您的业务始终保持竞争优势。有紧急需求？请联系我们
               </p>
-              <a class="call" href="tel:+1-485-456-0102">+1-485-456-0102</a>
-              <router-link to="/about-us" class="default-btn btn-two">
-                GET A FREE AUDIT
+              <a
+                href="https://t.me/Digua7733"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="default-btn btn-telegram"
+              >
                 <img
-                  src="../../assets/images/icon-right-white.png"
-                  alt="icon-right-white"
+                  src="../../assets/images/telegram.png"
+                  alt="telegram"
+                  class="telegram-icon"
                 />
-              </router-link>
+                立即咨询
+              </a>
             </div>
           </div>
         </div>
@@ -89,6 +92,22 @@ export default {
     color: var(--headingColor);
     &:hover {
       color: var(--mainColor);
+    }
+  }
+  .btn-telegram {
+    background: #0088cc;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    .telegram-icon {
+      width: 20px;
+      height: 20px;
+      filter: brightness(0) invert(1);
+    }
+
+    &:hover {
+      background: #006699;
     }
   }
   &.style-two {
