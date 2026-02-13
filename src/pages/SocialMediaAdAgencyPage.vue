@@ -5,7 +5,6 @@
   <CapabilitiesContent />
   <UnlockSocialMediaPotential />
   <IncreaseYourBrands />
-  <DriveTraffic />
   <OurBlog class="pt-100" />
   <HarnessPowerOfSocialMedia />
   <MainFooter class="bg-style" />
@@ -19,7 +18,6 @@ import WhatWeDo from "../components/SocialMediaAdAgency/WhatWeDo.vue";
 import CapabilitiesContent from "../components/SocialMediaAdAgency/CapabilitiesContent.vue";
 import UnlockSocialMediaPotential from "../components/SocialMediaAdAgency/UnlockSocialMediaPotential.vue";
 import IncreaseYourBrands from "../components/Common/IncreaseYourBrands.vue";
-import DriveTraffic from "../components/SocialMediaAdAgency/DriveTraffic.vue";
 import OurBlog from "../components/Common/OurBlog.vue";
 import HarnessPowerOfSocialMedia from "../components/Common/HarnessPowerOfSocialMedia.vue";
 import MainFooter from "../components/Layouts/MainFooter.vue";
@@ -33,7 +31,6 @@ export default defineComponent({
     CapabilitiesContent,
     UnlockSocialMediaPotential,
     IncreaseYourBrands,
-    DriveTraffic,
     OurBlog,
     HarnessPowerOfSocialMedia,
     MainFooter,

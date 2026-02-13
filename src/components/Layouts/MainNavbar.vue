@@ -66,15 +66,6 @@
             <LanguageSwitcher />
           </li>
           <li>
-            <router-link to="/contact-us" class="default-btn">
-              {{ t('nav.getProposal') }}
-              <img
-                src="../../assets/images/icon-right-white.png"
-                alt="right-chevron"
-              />
-            </router-link>
-          </li>
-          <li>
             <a
               href="https://t.me/Digua7733"
               target="_blank"
