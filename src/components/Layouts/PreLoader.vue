@@ -2,9 +2,11 @@
   <div id="preloader" v-if="isLoading">
     <div class="preloader">
       <div class="waviy">
+        <span>K</span>
         <span>A</span>
-        <span>D</span>
-        <span>L</span>
+        <span>I</span>
+        <span>R</span>
+        <span>U</span>
         <span>I</span>
       </div>
     </div>
@@ -97,6 +99,9 @@ export default defineComponent({
         }
         &:nth-child(5) {
           animation-delay: 0.5s;
+        }
+        &:nth-child(6) {
+          animation-delay: 0.6s;
         }
       }
     }
