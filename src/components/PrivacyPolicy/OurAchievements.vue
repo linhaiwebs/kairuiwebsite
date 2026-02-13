@@ -17,7 +17,7 @@
               我们致力于保护您的隐私和个人信息安全。作为领先的广告营销机构，
               <span>Adli</span> 严格遵守数据保护法规，确保您的信息得到妥善保管和负责任的使用。
             </p>
-            <a href="https://t.me/yourusername" target="_blank" rel="noopener noreferrer" class="default-btn">
+            <a href="https://t.me/Digua7733" target="_blank" rel="noopener noreferrer" class="default-btn">
               联系我们
               <img
                 src="../../assets/images/icon-right-white.png"

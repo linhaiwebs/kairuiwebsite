@@ -17,7 +17,7 @@
               通过使用我们的服务，您同意遵守本服务条款。<span>Adli</span>
               作为专业的广告营销机构，我们致力于为客户提供透明、公平的服务条款。
             </p>
-            <a href="https://t.me/yourusername" target="_blank" rel="noopener noreferrer" class="default-btn">
+            <a href="https://t.me/Digua7733" target="_blank" rel="noopener noreferrer" class="default-btn">
               联系我们
               <img
                 src="../../assets/images/icon-right-white.png"
