@@ -23,8 +23,10 @@
           :data-aos-delay="blog.dataDelay"
         >
           <div class="blog-single-item transition-y">
-            <router-link
-              to="/author"
+            <a
+              href="https://t.me/Digua7733"
+              target="_blank"
+              rel="noopener noreferrer"
               class="d-flex align-items-center text-decoration-none author"
             >
               <div class="flex-shrink-0">
@@ -38,21 +40,21 @@
                 <span>发布者</span>
                 <h6 class="mb-0">{{ blog.name }}</h6>
               </div>
-            </router-link>
-            <router-link to="/blog-details" class="d-block blog-img">
+            </a>
+            <a href="https://t.me/Digua7733" target="_blank" rel="noopener noreferrer" class="d-block blog-img">
               <img :src="blog.image" alt="blog" />
-            </router-link>
+            </a>
             <h3>
-              <router-link to="/blog-details">
+              <a href="https://t.me/Digua7733" target="_blank" rel="noopener noreferrer">
                 {{ blog.title }}
-              </router-link>
+              </a>
             </h3>
             <ul class="ps-0 mb-0 list-unstyled tags">
               <li>
-                <router-link to="/blog-details">付费广告</router-link>
+                <a href="https://t.me/Digua7733" target="_blank" rel="noopener noreferrer">付费广告</a>
               </li>
               <li>
-                <router-link to="/blog-details">谷歌搜索</router-link>
+                <a href="https://t.me/Digua7733" target="_blank" rel="noopener noreferrer">谷歌搜索</a>
               </li>
             </ul>
           </div>
