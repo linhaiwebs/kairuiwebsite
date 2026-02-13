@@ -24,39 +24,39 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul :class="['navbar-nav', className]">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">
+            <a class="nav-link" href="#home" @click.prevent="scrollToSection('home')">
               {{ t('nav.home') }}
-            </router-link>
+            </a>
           </li>
 
           <li class="nav-item">
-            <router-link class="nav-link" to="/services">
+            <a class="nav-link" href="#services" @click.prevent="scrollToSection('services')">
               {{ t('nav.ourServices') }}
-            </router-link>
+            </a>
           </li>
 
           <li class="nav-item">
-            <router-link class="nav-link" to="/about-us">
+            <a class="nav-link" href="#about" @click.prevent="scrollToSection('about')">
               {{ t('nav.aboutUs') }}
-            </router-link>
+            </a>
           </li>
 
           <li class="nav-item">
-            <router-link class="nav-link" to="/success-stories">
-              {{ t('nav.successStories') }}
-            </router-link>
+            <a class="nav-link" href="#capabilities" @click.prevent="scrollToSection('capabilities')">
+              能力展示
+            </a>
           </li>
 
           <li class="nav-item">
-            <router-link class="nav-link" to="/blog">
+            <a class="nav-link" href="#blog" @click.prevent="scrollToSection('blog')">
               {{ t('nav.ourBlog') }}
-            </router-link>
+            </a>
           </li>
 
           <li class="nav-item">
-            <router-link class="nav-link" to="/contact-us">
+            <a class="nav-link" href="#contact" @click.prevent="scrollToSection('contact')">
               {{ t('nav.contact') }}
-            </router-link>
+            </a>
           </li>
         </ul>
       </div>
@@ -110,10 +110,25 @@ export default defineComponent({
       });
     });
 
+    const scrollToSection = (sectionId: string) => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        const offset = 80;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      }
+    };
+
     return {
       t,
       isSticky,
       stateStoreInstance,
+      scrollToSection,
     };
   },
 });

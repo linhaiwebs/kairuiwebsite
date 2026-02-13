@@ -1,12 +1,24 @@
 <template>
   <MainNavbar class="bg-white" mwClass="mw-1740" className="ms-auto" />
-  <MainBanner />
-  <WhatWeDo />
-  <CapabilitiesContent />
-  <UnlockSocialMediaPotential />
-  <IncreaseYourBrands />
-  <OurBlog class="pt-100" />
-  <HarnessPowerOfSocialMedia />
+  <div id="home">
+    <MainBanner />
+  </div>
+  <div id="services">
+    <WhatWeDo />
+  </div>
+  <div id="about">
+    <UnlockSocialMediaPotential />
+    <IncreaseYourBrands />
+  </div>
+  <div id="capabilities">
+    <CapabilitiesContent />
+  </div>
+  <div id="blog">
+    <OurBlog class="pt-100" />
+  </div>
+  <div id="contact">
+    <HarnessPowerOfSocialMedia />
+  </div>
   <MainFooter class="bg-style" />
 </template>
 

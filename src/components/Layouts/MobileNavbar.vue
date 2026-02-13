@@ -24,34 +24,34 @@
     <div class="offcanvas-body">
       <ul class="mobile-nav-menu">
         <li>
-          <router-link to="/" class="mobile-nav-link" @click="handleClick">
+          <a href="#home" class="mobile-nav-link" @click="scrollToSection('home')">
             {{ t('nav.home') }}
-          </router-link>
+          </a>
         </li>
         <li>
-          <router-link to="/services" class="mobile-nav-link" @click="handleClick">
+          <a href="#services" class="mobile-nav-link" @click="scrollToSection('services')">
             {{ t('nav.ourServices') }}
-          </router-link>
+          </a>
         </li>
         <li>
-          <router-link to="/about-us" class="mobile-nav-link" @click="handleClick">
+          <a href="#about" class="mobile-nav-link" @click="scrollToSection('about')">
             {{ t('nav.aboutUs') }}
-          </router-link>
+          </a>
         </li>
         <li>
-          <router-link to="/success-stories" class="mobile-nav-link" @click="handleClick">
-            {{ t('nav.successStories') }}
-          </router-link>
+          <a href="#capabilities" class="mobile-nav-link" @click="scrollToSection('capabilities')">
+            能力展示
+          </a>
         </li>
         <li>
-          <router-link to="/blog" class="mobile-nav-link" @click="handleClick">
+          <a href="#blog" class="mobile-nav-link" @click="scrollToSection('blog')">
             {{ t('nav.ourBlog') }}
-          </router-link>
+          </a>
         </li>
         <li>
-          <router-link to="/contact-us" class="mobile-nav-link" @click="handleClick">
+          <a href="#contact" class="mobile-nav-link" @click="scrollToSection('contact')">
             {{ t('nav.contact') }}
-          </router-link>
+          </a>
         </li>
       </ul>
       <div class="mobile-cta-section">
@@ -87,10 +87,29 @@ export default defineComponent({
       stateStoreInstance.open = false;
     };
 
+    const scrollToSection = (sectionId: string) => {
+      stateStoreInstance.open = false;
+
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          const offset = 80;
+          const elementPosition = element.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+          });
+        }
+      }, 300);
+    };
+
     return {
       t,
       stateStoreInstance,
       handleClick,
+      scrollToSection,
     };
   },
 });
