@@ -9,23 +9,21 @@
           data-aos-delay="200"
         >
           <div class="winning-agency-content">
-            <span class="top-title">TERMS & CONDITIONS</span>
+            <span class="top-title">服务条款</span>
             <h2>
-              Drive traffic, generate leads, achieve success with our paid
-              search services!
+              专业广告服务，助力品牌增长，实现营销目标！
             </h2>
             <p>
-              Transforming your brand's online presence and generating
-              meaningful results is our top priority at <span> Adli.</span> As a
-              leading paid search ad agency,
+              通过使用我们的服务，您同意遵守本服务条款。<span>Adli</span>
+              作为专业的广告营销机构，我们致力于为客户提供透明、公平的服务条款。
             </p>
-            <router-link to="/about-us" class="default-btn">
-              KNOW MORE ABOUT US
+            <a href="https://t.me/yourusername" target="_blank" rel="noopener noreferrer" class="default-btn">
+              联系我们
               <img
                 src="../../assets/images/icon-right-white.png"
                 alt="icon-right-white"
               />
-            </router-link>
+            </a>
           </div>
         </div>
 
