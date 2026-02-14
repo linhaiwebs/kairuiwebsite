@@ -63,9 +63,6 @@
       <div class="others-options">
         <ul class="d-flex align-items-center">
           <li>
-            <LanguageSwitcher />
-          </li>
-          <li>
             <a
               href="https://t.me/Digua7733"
               target="_blank"
@@ -90,13 +87,9 @@
 import { defineComponent, ref, onMounted } from "vue";
 import { useI18n } from "vue-i18n";
 import stateStore from "../../utils/store";
-import LanguageSwitcher from "./LanguageSwitcher.vue";
 
 export default defineComponent({
   name: "MainNavbar",
-  components: {
-    LanguageSwitcher
-  },
   props: ["mwClass", "className"],
   setup() {
     const { t } = useI18n();
